@@ -8,3 +8,5 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
+puts "Total revenue: #{Store.all.sum("annual_revenue")}"
+puts "Total revenue: #{Store.all.sum("annual_revenue")/Store.all.count}"
